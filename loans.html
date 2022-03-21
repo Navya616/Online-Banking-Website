@@ -1,0 +1,56 @@
+<html>
+<head>
+<link href="loans.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background-color:#333">
+<div class="container">
+ <form>
+ <div class="row">
+ <h4>Apply to Loan</h4>
+ <div class="input-group input-group-icon">
+ <input type="text" placeholder="Full Name" required/>
+ <div class="input-icon"><i class="fa fa-user"></i></div>
+ </div>
+ <div class="input-group input-group-icon">
+ <input type="password" placeholder="Account number" required/>
+ <div class="input-icon"><i class="fa fa-envelope"></i></div>
+ </div>
+ <div class="input-group input-group-icon">
+ <input type="email" placeholder="Email address" required/>
+ <div class="input-icon"><i class="fa fa-key"></i></div>
+ </div>
+ <div class="input-group input-group-icon">
+ <input type="tel" placeholder="Phone number" required/>
+ <div class="input-icon"><i class="fa fa-key"></i></div>
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-half">
+ <h4>Date of Birth</h4>
+ <input type="date" placeholder="DD/MM/YYYY" required/>
+ </div>
+ <div class="col-half">
+ <h4>Gender</h4>
+ <div class="input-group">
+ <input id="gender-male" type="radio" name="gender" value="male" required/>
+ <label for="gender-male">Male</label>
+ <input id="gender-female" type="radio" name="gender" value="female" required/>
+ <label for="gender-female">Female</label>
+ </div>
+ </div>
+ <div style="width:400px;">
+ <select style="color:black" >
+ <option style="color:black" value="0">Select Loan Type:</option>
+ <option style="text-color:black;" value="1">House Loan</option>
+ <option styles="color:black" value="2">Education Loan</option>
+ <option styles="color:black" value="3">Gold Loan</option>
+ <option styles="color:black" value="4">Personal Loan</option>
+ </select>
+</div>
+ </div>
+<p align="right"> <button formaction="bankpage1.html" class="sub">Submit</button></p>
+ </div>
+ </form>
+</div>
+</body>
+</html>

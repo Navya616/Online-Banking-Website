@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script language="javascript">
+function validate()
+{
+var pass=document.myform.pwd.value;
+if(pass.length<8)
+{
+alert("password should contain atleast 8 characters");
+return false;
+}
+return true;
+}
+</script>
+<style>
+h1{
+color:black;}
+b{color:yellow;
+font-size:25px;}
+input[type=text]
+{
+width:220;
+height:30;
+}
+input[type=password]
+{
+width:220;
+height:30;
+font-size:7}
+input[type=submit]
+{
+padding:5;
+width:80;
+border-radius:6;
+background:orange;
+color:white;
+font-size:25px;
+}
+input[type=reset]
+{
+padding:5;
+width:80;
+border-radius:3;
+background:red;
+font-size:25px;
+}
+table{
+border-spacing:35px;
+}
+.card-holder {
+  margin: 2em 0;
+}
+.bg-purple {
+    color: #fff;
+    background: -webkit-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -webkit-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    background: -o-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -o-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    background: -moz-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -moz-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    background: linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+}
+</style> 
+</head>
+<div class="card-holder">
+<div class="card bg-purple">
+<body bgcolor="</div></div>">
+<br><br><br><br> <center> <h1>LOGIN FORM</h1>
+<table>
+<tr>
+<td><b>User Name :</b></td>
+<td><input type="text" placeholder="enter your name" required></td>
+</tr>
+<tr>
+<td><b> Password :</b></td>
+<td> <input type="password" placeholder="********" required></td>
+<br><br></td></tr><br>
+<tr><td colspan="2" align="center">
+<input type="submit" onClick="return validate()" value="Login" >&nbsp&nbsp&nbsp&nbsp
+<input type="reset" formaction="bankpage1.html" value="cancel">
+</td></tr></table>
+</form>
+</center></body>
+</html>
